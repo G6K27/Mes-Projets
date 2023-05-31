@@ -1,0 +1,72 @@
+@font-face{
+        font-family: 'thedark';
+        src: url(../fonts/TheDark.ttf) format(opentype);
+}
+
+body{
+        background: linear-gradient(135deg, black 30%, red 40%, black 30%);
+}
+
+.h1{
+        font-family: 'thedark', sans-serif;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+}
+
+
+
+/*BARRE DE NAVIGATION*/
+
+nav{
+        font-family: 'thedark', sans-serif;
+        width: 50rem;
+        background: linear-gradient(135deg, black 30%, red 40%, black 30%);
+}
+
+/*CAROUSSEL*/
+
+.carousel{
+        margin: auto;
+        padding-left: 6rem;
+        padding-right: 6rem;
+}
+
+/*LES MEMBRES*/
+
+#membres{
+        display: flex;
+        justify-content: center;
+}
+
+/*DISCOGRAPHIE*/
+
+.row{
+        gap: 8rem;
+        width: 90rem;
+        margin: auto;
+}
+
+/*LES DATES DE CONCERTS*/
+
+#table{
+        width: 90rem;
+        margin: auto;
+}
+
+/*CONTACT*/
+
+#contact{
+        width: 50rem;
+        margin: auto;
+        font-family: 'thedark', sans-serif;
+}
+
+.form-control{
+        margin: 1rem;
+}
+
+.btn{
+        margin: 1rem;
+}

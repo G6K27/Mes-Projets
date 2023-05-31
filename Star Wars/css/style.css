@@ -1,0 +1,27 @@
+*{
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: url('../img/cursor.gif'), auto;
+}
+
+#logo{
+    width: 10%;
+}
+
+h1{
+    color: 	#dfdf20;
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    margin: 0;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-list-movie{
+    margin: 5%;
+}

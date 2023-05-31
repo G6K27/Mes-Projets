@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+<!----------------------------------------------TITRE ET ICONE ONGLET-------------------------------------------->  
+
+    <title>Accueil - Resident Evil Village</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+
+<!----------------------------------------------AUDIO-------------------------------------------->  
+
+<audio src="audio/song-re.mp3" controls loop>
+</audio>
+
+<!----------------------------------------------VIDEO FOND D ECRAN-------------------------------------------->    
+
+   <div id="video">
+    <video autoplay="autoplay" muted="" loop="infinite" src="video/video-re.mp4"></video>
+    </div>
+
+<!----------------------------------------------LOGO-------------------------------------------->  
+
+<img id="logo" src="img/logo.png" alt="">
+
+<!----------------------------------------------NAVIGATION-------------------------------------------->  
+
+<input type="checkbox" id="ham-menu">
+<label for="ham-menu">
+  <div class="hide-des">
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+  </div>
+</label>
+<div class="ham-menu">
+  <ul class="centre-text bold-text">
+    <li><a href="index.html" target="_blank">Home</a></li>
+    <br>
+    <li><a href="html/page1.html" target="_blank">Dimitrescu's Castle</a></li>
+    <br>
+    <li><a href="html/page2.html" target="_blank">Beneviento's House</a></li>
+    <br>
+    <li><a href="html/page3.html" target="_blank">Moreau's Reservoir</a></li>
+    <br>
+    <li><a href="html/page4.html" target="_blank">Heisenberg's Factory</a></li>
+  </ul>
+</div>
+
+<!----------------------------------------------TITRE-------------------------------------------->  
+
+<h1>Les quatre maisons</h1>
+
+<!----------------------------------------------TEXTE-------------------------------------------->  
+
+<p>Les Quatre Maisons, également connues sous le nom des Quatre Nobles, sont quatre familles qui gouvernent quatre régions du village et sont dirigées par Mère Miranda. Les maisons sont représentées par la famille Dimitrescu, la famille Heisenberg, la famille Moreau et la famille Beneviento. Leur symbole présente une ressemblance frappante avec le logo de Umbrella Corporation.</p>
+
+<!----------------------------------------------QUESTION MAP-------------------------------------------->  
+
+<h2><span>V</span><span>o</span><span>u</span><span>s</span> <span>d</span><span>é</span><span>s</span><span>i</span><span>r</span><span>e</span><span>z</span> <span>r</span><span>e</span><span>n</span><span>d</span><span>r</span><span>e</span> <span>v</span><span>i</span><span>s</span><span>i</span><span>t</span><span>e</span> <span>à</span> <span>q</span><span>u</span><span>e</span><span>l</span> <span>n</span><span>o</span><span>b</span><span>l</span><span>e</span> <span>?</span></h2>
+
+<!----------------------------------------------MAP+CURSEUR--------------------------------------------> 
+
+<img id="map" class="umbrella" usemap="#map" src="img/map.png" alt="">
+<map name="map">
+  <area shape="poly" coords="665,123,720,177,665,230,636,218,460,217,459,190,610,177" href="html/page1.html" target="_blank" alt="">
+  <area shape="poly" coords="269,196,321,250,271,301,228,282,54,282,52,253,217,249" href="html/page2.html" target="_blank" alt="">
+  <area shape="poly" coords="781,529,837,584,781,638,766,633,575,634,575,603,727,585" href="html/page3.html" target="_blank" alt="">
+  <area shape="poly" coords="302,599,246,650,47,651,48,688,259,687,285,693,320,692,356,655" href="html/page4.html" target="_blank" alt="">
+</map>
+
+<!----------------------------------------------BANDEAU PHOTO-------------------------------------------->  
+
+<figure>
+  <img class="bandeauphoto" src="img/village1.png" alt="">
+  <img class="bandeauphoto" src="img/village2.jpg" alt="">
+  <img class="bandeauphoto" src="img/village3.png" alt="">
+</figure>
+
+</body>
+</html>

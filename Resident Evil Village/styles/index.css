@@ -1,0 +1,245 @@
+/********************************LOGO**********************************/
+
+#logo{
+    width: 10rem;
+    position: absolute;
+    top: 1rem;
+    left: 6rem;
+    margin-top: 3rem;
+}
+
+/********************************MAP**********************************/
+
+#map{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 7rem;
+    border-bottom: 5px outset rgb(139, 105, 18);
+}
+
+@media screen and (max-width: 768px) {
+  #map{
+    width: 100%;
+  }
+}
+
+/********************************CURSEUR**********************************/
+
+.umbrella {
+  cursor: url("../img/curseur.png"), auto;
+}
+
+/********************************TITRE**********************************/
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+  color: grey;
+  padding: 3rem;
+}
+
+/********************************TEXTE**********************************/
+
+p{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px outset rgb(139, 105, 18);
+    padding: 0;
+    padding-bottom: 3rem;
+    color: grey;
+    padding: 3rem;
+}
+
+/********************************QUESTION MAP**********************************/
+
+h2{
+    text-align: center;
+    color: grey;
+    padding: 3rem;
+    font-size: 40px;
+}
+
+h2 span {
+  display: inline-block;
+  text-shadow: 0 0 0 grey;
+  animation:  smoky 15s both;
+}
+
+span:nth-child(even) {
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px grey;
+  }
+  to {
+    transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+    text-shadow: 0 0 20px grey;
+    opacity: 0;
+  }
+}
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px grey;
+  }
+  to {
+    transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+    text-shadow: 0 0 20px grey;
+    opacity: 0;
+  }
+}
+span:nth-of-type(1) {
+  animation-delay: 15.1s;
+}
+
+span:nth-of-type(2) {
+  animation-delay: 15.2s;
+}
+
+span:nth-of-type(3) {
+  animation-delay: 15.3s;
+}
+
+span:nth-of-type(4) {
+  animation-delay: 15.4s;
+}
+
+span:nth-of-type(5) {
+  animation-delay: 15.5s;
+}
+
+span:nth-of-type(6) {
+  animation-delay: 15.6s;
+}
+
+span:nth-of-type(7) {
+  animation-delay: 15.7s;
+}
+
+span:nth-of-type(8) {
+  animation-delay: 15.8s;
+}
+
+span:nth-of-type(9) {
+  animation-delay: 15.9s;
+}
+
+span:nth-of-type(10) {
+  animation-delay: 16s;
+}
+
+span:nth-of-type(11) {
+  animation-delay: 16.1s;
+}
+
+span:nth-of-type(12) {
+  animation-delay: 16.2s;
+}
+
+span:nth-of-type(13) {
+  animation-delay: 16.3s;
+}
+
+span:nth-of-type(14) {
+  animation-delay: 16.4s;
+}
+
+span:nth-of-type(15) {
+  animation-delay: 16.5s;
+}
+
+span:nth-of-type(16) {
+  animation-delay: 16.6s;
+}
+
+span:nth-of-type(17) {
+  animation-delay: 16.7s;
+}
+
+span:nth-of-type(18) {
+  animation-delay: 16.8s;
+}
+
+span:nth-of-type(19) {
+  animation-delay: 16.9s;
+}
+
+span:nth-of-type(20) {
+  animation-delay: 17s;
+}
+
+span:nth-of-type(21) {
+  animation-delay: 18.1s;
+}
+
+span:nth-of-type(22) {
+  animation-delay: 18.2s;
+}
+
+span:nth-of-type(23) {
+  animation-delay: 18.3s;
+}
+
+span:nth-of-type(24) {
+  animation-delay: 18.4s;
+}
+
+span:nth-of-type(25) {
+  animation-delay: 18.5s;
+}
+
+span:nth-of-type(26) {
+  animation-delay: 18.6s;
+}
+
+span:nth-of-type(27) {
+  animation-delay: 18.7s;
+}
+
+span:nth-of-type(28) {
+  animation-delay: 18.8s;
+}
+
+span:nth-of-type(29) {
+  animation-delay: 18.9s;
+}
+
+span:nth-of-type(30) {
+  animation-delay: 19s;
+}
+
+span:nth-of-type(31) {
+  animation-delay: 19.1s;
+}
+
+span:nth-of-type(32) {
+  animation-delay: 19.2s;
+}
+
+span:nth-of-type(33) {
+  animation-delay: 19.3s;
+}
+
+span:nth-of-type(34) {
+  animation-delay: 19.4s;
+}
+
+/********************************BANDEAU PHOTO**********************************/
+
+figure{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.bandeauphoto{
+    border-style: ridge;
+    border-color: rgb(139, 105, 18);
+    width: 30%;
+}

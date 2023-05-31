@@ -1,0 +1,27 @@
+Sélecteurs CSS :
+
+	.* :
+		-sélectionne toutes mes pages
+		-css/all.css
+
+	.#map :
+		-sélectionne mon id="map"
+		-index.html
+
+	.photobeneviento :
+		-sélectionne ma class="photobeneviento"
+		-html/page2.html
+
+Media-queries :
+
+	.règle media-queries : @media screen and (min-width: 1024px) {
+  				.photodimitrescu{
+    				width: 30%;
+ 				}
+		-effet : si mon écran est supérieur à 1024px alors ma photo aura une largeur de 30% 
+
+
+Transitions CSS :
+
+	.transition : effet lumière autour du miroir
+		- la transition permet de faire un effet de lumière progressif
